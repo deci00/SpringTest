@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import se.cirillo.main.NameService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("file:src/main/resources/spring/application-config.xml")
+@ContextConfiguration("classpath:/spring/application-config.xml")
 public class JunitTest {
 	
 	
